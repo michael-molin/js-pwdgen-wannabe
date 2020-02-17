@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#psw-box {
+    margin: auto;
+    display: none;
+}
+
+div span {
+    display: block;
+}
+
+
+#psw-box.visible {
+    display: block;
+}
